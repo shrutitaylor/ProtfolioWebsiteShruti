@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Shruti-Protfolio/static/css/main.96d2c5a8.chunk.css",
+    "main.js": "/Shruti-Protfolio/static/js/main.d3cae5f0.chunk.js",
+    "main.js.map": "/Shruti-Protfolio/static/js/main.d3cae5f0.chunk.js.map",
+    "runtime-main.js": "/Shruti-Protfolio/static/js/runtime-main.c741da65.js",
+    "runtime-main.js.map": "/Shruti-Protfolio/static/js/runtime-main.c741da65.js.map",
+    "static/js/2.150da6fa.chunk.js": "/Shruti-Protfolio/static/js/2.150da6fa.chunk.js",
+    "static/js/2.150da6fa.chunk.js.map": "/Shruti-Protfolio/static/js/2.150da6fa.chunk.js.map",
+    "index.html": "/Shruti-Protfolio/index.html",
+    "precache-manifest.aa072010e1cf3cb60c9315cfa929a3b3.js": "/Shruti-Protfolio/precache-manifest.aa072010e1cf3cb60c9315cfa929a3b3.js",
+    "service-worker.js": "/Shruti-Protfolio/service-worker.js",
+    "static/css/main.96d2c5a8.chunk.css.map": "/Shruti-Protfolio/static/css/main.96d2c5a8.chunk.css.map",
+    "static/js/2.150da6fa.chunk.js.LICENSE.txt": "/Shruti-Protfolio/static/js/2.150da6fa.chunk.js.LICENSE.txt",
+    "static/media/hiIamShruti.png": "/Shruti-Protfolio/static/media/hiIamShruti.bffe0c4a.png",
+    "static/media/main_project2.JPG": "/Shruti-Protfolio/static/media/main_project2.b810c0d3.JPG",
+    "static/media/main_project3.png": "/Shruti-Protfolio/static/media/main_project3.55102553.png",
+    "static/media/main_project4.JPG": "/Shruti-Protfolio/static/media/main_project4.e7706002.JPG",
+    "static/media/main_project5.PNG": "/Shruti-Protfolio/static/media/main_project5.4ae9df0b.PNG",
+    "static/media/shruti-logo-nobg.png": "/Shruti-Protfolio/static/media/shruti-logo-nobg.fd1b8d8c.png",
+    "static/media/shrutidp.jpg": "/Shruti-Protfolio/static/media/shrutidp.a9202bf3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c741da65.js",
+    "static/js/2.150da6fa.chunk.js",
+    "static/css/main.96d2c5a8.chunk.css",
+    "static/js/main.d3cae5f0.chunk.js"
+  ]
+}
