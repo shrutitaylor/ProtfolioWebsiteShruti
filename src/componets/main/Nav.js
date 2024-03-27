@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-scroll";
 import logo from "./shruti-logo-nobg.png";
 const Nav = (props) => {
   return (
@@ -7,7 +6,7 @@ const Nav = (props) => {
       <nav className={props.class}>
         <a className="logo" href="/" aria-label="home"><img width={'100px'} src={logo} alt="logo" /></a>
         <div className="main nav">
-          <ul className="nav-list">
+          {/* <ul className="nav-list">
             <li>
               <Link
                 activeClass="active"
@@ -55,14 +54,14 @@ const Nav = (props) => {
               >
                 Contact
               </Link>
-            </li>
-          </ul>
+            </li> 
+          </ul>*/}
           <a
             className="resume"
             target="_blank"
             href="/static/cv/Costache%20Robert%20Cv.pdf"
           >
-            Resume
+           Get In Touch
           </a>
         </div>
       </nav>

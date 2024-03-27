@@ -217,6 +217,10 @@ header nav .nav .nav-list li:hover {
   margin-bottom: 30px;
   font-size: 40px;
   color: #FFED77;
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: "SemiBold";
 }
 
 .MuiTabs-vertical {
@@ -317,7 +321,10 @@ aside .aside-content ol {
 aside .aside-content ol li {
   color: #FFED77;
   font-size: 25px;
-  font-family: Roboto;
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: "SemiBold";
   text-align: center;
   margin-bottom: 60px;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -387,9 +394,9 @@ aside .aside-content ol li .resume:hover {
 .main.intro .intro_cta {
   margin-bottom: 45px;
   background-color: transparent;
-  border: 1px solid #7ac9ed;
+  /* border: 1px solid #7ac9ed; */
   padding: 20px 25px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   font-size: 15px;
 }
@@ -448,6 +455,10 @@ aside .aside-content ol li .resume:hover {
   font-size: 40px;
   color: #FFED77;
   margin-bottom: 30px;
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: "SemiBold";
 }
 
 .main.about_me .about_content {
@@ -456,17 +467,20 @@ aside .aside-content ol li .resume:hover {
 
 .main.about_me .about_content p {
   margin-bottom: 15px;
+  font-size: 20px;
 }
 
 .main.about_me .about_content ul {
   display: flex;
   flex-wrap: wrap;
   max-width: 300px;
+  font-size: 20px;
 }
 
 .main.about_me .about_content ul li {
   flex-basis: 50%;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .main.about_me .about_content ul li:before {
@@ -489,7 +503,7 @@ aside .aside-content ol li .resume:hover {
 
 .main.about_me .about_img img {
   max-width: 100%;
-  width: 250px;
+  width: 300px;
   vertical-align: middle;
   filter: grayscale(100%);
   mix-blend-mode: multiply;
@@ -511,6 +525,10 @@ aside .aside-content ol li .resume:hover {
   margin-bottom: 30px;
   font-size: 40px;
   color: #FFED77;
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: "SemiBold";
 }
 
 .main.main-project {
@@ -521,6 +539,10 @@ aside .aside-content ol li .resume:hover {
   background-color: #7ac9ed;
   margin-bottom: 20px;
   display: block;
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: "SemiBold";
 }
 
 .main.main-project .img-container img {
@@ -616,3 +638,14 @@ footer .socialMedia ul li a {
 }
 
 /* --Footer  Section */
+.annim{
+  position: relative;
+  animation: le 600ms infinite alternate;
+}
+@keyframes le {
+  0%{top:0px}
+  50%{transform: rotate(1deg);}
+  80%{transform: rotate(-1deg);}
+  100%{top:10px}
+
+}

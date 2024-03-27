@@ -10,7 +10,7 @@ const Footer = () => {
         <ul>
           <li>
             <a
-              href="https://github.com/DONROB3R7"
+              href="https://github.com/shrutitaylor/"
               target="_blank"
               rel="nofollow noopener noreferrer"
             >

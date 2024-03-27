@@ -1,3 +1,4 @@
+import AssistantIcon from '@material-ui/icons/Assistant';
 import React from "react";
 import image from "./hiIamShruti.png";
 const Intro = () => {
@@ -16,8 +17,9 @@ const Intro = () => {
           exceptional websites, applications, and everything in between.
         </p>
       </div> */}
-      <div className="intro_cta">
-        <a href="mailto:random.com">Get In Touch</a>
+      <div className="intro_cta annim">
+        {/* <a href="mailto:random.com">Get In Touch</a> */}
+        <AssistantIcon style={{ fontSize: 50 }}/>
       </div>
     </section>
   );

@@ -33,7 +33,7 @@ class Experience extends Component {
     const value = this.state.value;
     return (
       <React.Fragment>
-        <div className="experience_title">
+        <div className="experience_title" style={{marginTop : "50px"}}>
           <h3>Where I Have Worked</h3>
         </div>
 
