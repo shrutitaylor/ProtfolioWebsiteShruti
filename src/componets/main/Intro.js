@@ -1,6 +1,6 @@
 import AssistantIcon from '@material-ui/icons/Assistant';
 import React from "react";
-import image from "./hiIamShruti.png";
+import image from "./shruti-middle.png";
 const Intro = () => {
   return (
     <section className="main intro " >
