@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ProtfolioWebsiteShruti/static/css/main.96d2c5a8.chunk.css",
-    "main.js": "/ProtfolioWebsiteShruti/static/js/main.d3cae5f0.chunk.js",
-    "main.js.map": "/ProtfolioWebsiteShruti/static/js/main.d3cae5f0.chunk.js.map",
+    "main.css": "/ProtfolioWebsiteShruti/static/css/main.8bd1ead1.chunk.css",
+    "main.js": "/ProtfolioWebsiteShruti/static/js/main.2def182e.chunk.js",
+    "main.js.map": "/ProtfolioWebsiteShruti/static/js/main.2def182e.chunk.js.map",
     "runtime-main.js": "/ProtfolioWebsiteShruti/static/js/runtime-main.fd56241f.js",
     "runtime-main.js.map": "/ProtfolioWebsiteShruti/static/js/runtime-main.fd56241f.js.map",
-    "static/js/2.150da6fa.chunk.js": "/ProtfolioWebsiteShruti/static/js/2.150da6fa.chunk.js",
-    "static/js/2.150da6fa.chunk.js.map": "/ProtfolioWebsiteShruti/static/js/2.150da6fa.chunk.js.map",
+    "static/js/2.1c0fd0c1.chunk.js": "/ProtfolioWebsiteShruti/static/js/2.1c0fd0c1.chunk.js",
+    "static/js/2.1c0fd0c1.chunk.js.map": "/ProtfolioWebsiteShruti/static/js/2.1c0fd0c1.chunk.js.map",
     "index.html": "/ProtfolioWebsiteShruti/index.html",
-    "precache-manifest.444b55052cfa04cd0758c7ad5feda4b1.js": "/ProtfolioWebsiteShruti/precache-manifest.444b55052cfa04cd0758c7ad5feda4b1.js",
+    "precache-manifest.593657eaee809a79322370aa282436d1.js": "/ProtfolioWebsiteShruti/precache-manifest.593657eaee809a79322370aa282436d1.js",
     "service-worker.js": "/ProtfolioWebsiteShruti/service-worker.js",
-    "static/css/main.96d2c5a8.chunk.css.map": "/ProtfolioWebsiteShruti/static/css/main.96d2c5a8.chunk.css.map",
-    "static/js/2.150da6fa.chunk.js.LICENSE.txt": "/ProtfolioWebsiteShruti/static/js/2.150da6fa.chunk.js.LICENSE.txt",
+    "static/css/main.8bd1ead1.chunk.css.map": "/ProtfolioWebsiteShruti/static/css/main.8bd1ead1.chunk.css.map",
+    "static/js/2.1c0fd0c1.chunk.js.LICENSE.txt": "/ProtfolioWebsiteShruti/static/js/2.1c0fd0c1.chunk.js.LICENSE.txt",
     "static/media/hiIamShruti.png": "/ProtfolioWebsiteShruti/static/media/hiIamShruti.bffe0c4a.png",
     "static/media/main_project2.JPG": "/ProtfolioWebsiteShruti/static/media/main_project2.b810c0d3.JPG",
     "static/media/main_project3.png": "/ProtfolioWebsiteShruti/static/media/main_project3.55102553.png",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fd56241f.js",
-    "static/js/2.150da6fa.chunk.js",
-    "static/css/main.96d2c5a8.chunk.css",
-    "static/js/main.d3cae5f0.chunk.js"
+    "static/js/2.1c0fd0c1.chunk.js",
+    "static/css/main.8bd1ead1.chunk.css",
+    "static/js/main.2def182e.chunk.js"
   ]
 }

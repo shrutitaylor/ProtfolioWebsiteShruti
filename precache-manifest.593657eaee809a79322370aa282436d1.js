@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "edf0e4c4db4ea21f5eaebd30409b94d7",
+    "revision": "fe7f0598294f72d6a63d661b107c4f11",
     "url": "/ProtfolioWebsiteShruti/index.html"
   },
   {
-    "revision": "711e0ab0e46e8fac9373",
-    "url": "/ProtfolioWebsiteShruti/static/css/main.96d2c5a8.chunk.css"
+    "revision": "7387edfa48d938fc0861",
+    "url": "/ProtfolioWebsiteShruti/static/css/main.8bd1ead1.chunk.css"
   },
   {
-    "revision": "43807829f6b11b5f6139",
-    "url": "/ProtfolioWebsiteShruti/static/js/2.150da6fa.chunk.js"
+    "revision": "e44f1365d2d326f60321",
+    "url": "/ProtfolioWebsiteShruti/static/js/2.1c0fd0c1.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/ProtfolioWebsiteShruti/static/js/2.150da6fa.chunk.js.LICENSE.txt"
+    "url": "/ProtfolioWebsiteShruti/static/js/2.1c0fd0c1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "711e0ab0e46e8fac9373",
-    "url": "/ProtfolioWebsiteShruti/static/js/main.d3cae5f0.chunk.js"
+    "revision": "7387edfa48d938fc0861",
+    "url": "/ProtfolioWebsiteShruti/static/js/main.2def182e.chunk.js"
   },
   {
     "revision": "8d84001d8fd2062e34c4",
