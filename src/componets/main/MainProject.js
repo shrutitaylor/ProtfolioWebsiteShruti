@@ -1,7 +1,7 @@
-import React from "react";
+import DeveloperModeIcon from "@material-ui/icons/DeveloperMode";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import OpenInNewIcon from "@material-ui/icons/OpenInNew";
-import DeveloperModeIcon from "@material-ui/icons/DeveloperMode";
+import React from "react";
 
 const MainProject = (props) => {
   const {
@@ -19,7 +19,7 @@ const MainProject = (props) => {
   const tech = technologies.map((tech, index) => <li key={index}>{tech}</li>);
 
   return (
-    <section className="main main-project" id={props.id}>
+    <section style={{marginTop : "50px"}} className="main main-project" id={props.id}>
       {bigTitle ? (
         <div className="experience_title">
           <h3>{bigTitle}</h3>

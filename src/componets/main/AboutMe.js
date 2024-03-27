@@ -4,6 +4,13 @@ const AboutMe = (props) => {
   return (
     <section className="main about_me" id={props.id}>
       <div className="about_me left">
+        <div className="about_img">
+          <picture>
+            <img src={props.img} alt="about_me" />
+          </picture>
+        </div>
+      </div>
+      <div className="about_me right">
         <div className="about_title">
           <h3>About Me</h3>
         </div>
@@ -26,13 +33,7 @@ const AboutMe = (props) => {
           </ul>
         </div>
       </div>
-      <div className="about_me right">
-        <div className="about_img">
-          <picture>
-            <img src={props.img} alt="about_me" />
-          </picture>
-        </div>
-      </div>
+      
     </section>
   );
 };
