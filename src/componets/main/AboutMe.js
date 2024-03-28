@@ -1,17 +1,19 @@
+
 import { faCode } from '@fortawesome/fontawesome-free-solid';
 import { faAngular, faCss3, faGithub, faHtml5, faNode, faReact } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// Resume
 import React from "react";
-
+import resumePDF from "./resume_shruti.pdf";
 const AboutMe = (props) => {
   return (
     <section className="main about_me" id={props.id}>
       <div className="about_me left">
         <div className="about_img">
-          <div style={{border:"2px", borderColor: "white"}} color='#34567g'>gfghf</div>
-          {/* <picture>
+          
+          <picture>
             <img src={props.img} alt="about_me" />
-          </picture> */}
+          </picture>
         </div>
       </div>
       <div className="about_me right">
@@ -34,8 +36,9 @@ const AboutMe = (props) => {
            Personally, I'm excited to join the boring, simple, and rarely-evolving world of tech.
           </p>
           <p>Other than coding, I love painting portraits, cooking and making people laugh.</p>
-          <a href="mailto:shruti128770@gmail.com">VIEW RESUME</a>
-          <p>Here are a few technologies I've been working with recently:</p>
+          <a href={resumePDF} target="_blank" rel="noopener noreferrer" className="resume-button">VIEW RESUME</a>
+          
+          <div className=" head" style={{marginTop : '40px', fontSize: '20px'}}>SKILLS</div>
           
                   <div className="icon-container">
               <div className="icon-wrapper">

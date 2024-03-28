@@ -530,7 +530,7 @@ aside .aside-content ol li .resume:hover {
 }
 
 .main.about_me .about_content .icon {
-  font-size: 3.4rem; /* Adjust the size as needed */
+  font-size: 3.5rem; /* Adjust the size as needed */
   
 }
 
@@ -540,7 +540,7 @@ aside .aside-content ol li .resume:hover {
 .main.about_me .about_img {
   margin: 30px auto 50px;
   width: auto;
-  background-color: #7ac9ed;
+  /* background-color: #7ac9ed; */
   position: relative;
   max-width: 250px;
   border-radius: 15px;
@@ -551,7 +551,7 @@ aside .aside-content ol li .resume:hover {
   max-width: 100%;
   width:100%;
   vertical-align: middle;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   mix-blend-mode: multiply;
   transition: opacity 500ms ease 0s;
   border-radius: 15px;
@@ -661,7 +661,7 @@ aside .aside-content ol li .resume:hover {
 
 /* Get In Touch Section */
 .main.get_in_touch .title {
-  font-size: 40px;
+  font-size: 60px;
   color: #ccd6f6;
   margin-bottom: 30px;
   text-align: center;
@@ -718,4 +718,25 @@ footer .socialMedia ul li a {
   80%{transform: rotate(-1deg);}
   100%{top:10px}
 
+}
+
+.main .intro .icon-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main.intro .icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 15px; /* Adjust the spacing between icons */
+}
+
+.main.intro .icon {
+  font-size: 3.4rem; /* Adjust the size as needed */
+  
+}
+
+.main.intro .icon-text {
+  font-size: 0.8rem; /* Adjust the text size as needed */
 }

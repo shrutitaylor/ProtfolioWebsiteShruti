@@ -4,7 +4,6 @@ import ReactDOM from "react-dom";
 import Zoom from "react-reveal/Zoom";
 import AboutMe from "./componets/main/AboutMe";
 import Aside from "./componets/main/Aside";
-import Experience from "./componets/main/Experience";
 import Footer from "./componets/main/Footer";
 import GetInTouch from "./componets/main/GetInTouch";
 import Intro from "./componets/main/Intro";
@@ -18,6 +17,8 @@ import mainProject3 from "./img/main_project3.png";
 import mainProject4 from "./img/main_project4.JPG";
 import mainProject5 from "./img/main_project5.PNG";
 import AboutMeImg from "./img/shrutidp.jpg";
+
+// Resume
 
 import "./styles.css";
 
@@ -102,9 +103,9 @@ class Main extends Component {
           <Zoom>
             <AboutMe id="about" img={AboutMeImg} />
           </Zoom>
-          <Zoom>
+          {/* <Zoom>
             <Experience id="experience" orientation={this.state.orientation} />
-          </Zoom>
+          </Zoom> */}
           <Zoom>
             <ProjectsIntro />
           </Zoom>

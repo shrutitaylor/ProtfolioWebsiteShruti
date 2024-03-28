@@ -8,7 +8,7 @@ const Intro = () => {
         <h3>Hello There!</h3>
         {/* <h2>I am Shruti</h2>
         <h3>DEVELOPER. DEBUGGER. DEBATATE.</h3> */}
-        <img  src={image} alt="hi iam shruti" />
+        <img style={{ fontOpticalSizing: 'auto',}}  src={image} alt="hi iam shruti" />
       </div>
 
       {/* <div className="intro_content">
