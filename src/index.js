@@ -1,3 +1,4 @@
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import Zoom from "react-reveal/Zoom";
@@ -9,7 +10,7 @@ import GetInTouch from "./componets/main/GetInTouch";
 import Intro from "./componets/main/Intro";
 import MainProject from "./componets/main/MainProject";
 import Nav from "./componets/main/Nav";
-
+import ProjectsIntro from "./componets/main/ProjectsIntro";
 // Images
 import mainProject from "./img/main_project1.png";
 import mainProject2 from "./img/main_project2.JPG";
@@ -104,7 +105,9 @@ class Main extends Component {
           <Zoom>
             <Experience id="experience" orientation={this.state.orientation} />
           </Zoom>
-
+          <Zoom>
+            <ProjectsIntro />
+          </Zoom>
           <Zoom>
             <MainProject
               bigTitle="Some Things I have Built"
