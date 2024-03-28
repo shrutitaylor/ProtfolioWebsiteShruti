@@ -20,7 +20,7 @@
 
 /* General Css rules */
 body {
-  background-color: #292929;
+  background-color: #1e1e1e;
   font-family: "Space Grotesk", sans-serif;
   color: #7ac9ed;
   font-weight: 400;
@@ -39,12 +39,12 @@ ul {
 
 #root > section {
   margin: 0 30px;
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
 @media (min-width: 800px) {
   #root > section {
-    margin: 0 150px;
+    margin: 0 100px;
   }
 }
 
@@ -107,9 +107,9 @@ header nav .nav a {
 header nav .nav .resume {
   color: #7ac9ed;
   background-color: transparent;
-  border: 1px solid #7ac9ed;
+  border: 2px solid #7ac9ed;
   padding: 10px 15px;
-  border-radius: 5px;
+  
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
@@ -338,9 +338,8 @@ aside .aside-content ol li:hover {
 aside .aside-content ol li .resume {
   color: #7ac9ed;
   background-color: transparent;
-  border: 1px solid #7ac9ed;
+  border: 2px solid #7ac9ed;
   padding: 10px 25px;
-  border-radius: 5px;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   text-decoration: none;
 }
@@ -407,7 +406,7 @@ aside .aside-content ol li .resume:hover {
 }
 
 .main.intro .intro_cta:hover {
-  background-color: rgba(100, 255, 218, 0.1);
+  background-color: rgba(3, 3, 3, 0);
   cursor: pointer;
 }
 
@@ -442,18 +441,26 @@ aside .aside-content ol li .resume:hover {
   flex-basis: 100%;
 }
 
-@media (min-width: 1000px) {
+/* @media (min-width: 1000px) {
   .main.about_me .left {
-    flex-basis: 50%;
+    flex-basis: 40%;
   }
   .main.about_me .right {
-    flex-basis: 50%;
+    flex-basis: 60%;
+  }
+} */
+@media (min-width: 1000px) {
+  .main.about_me .left {
+    flex-basis: 40%;
+  }
+  .main.about_me .right {
+    flex-basis: 60%;
   }
 }
 
 .main.about_me .about_title {
   font-size: 40px;
-  color: #FFED77;
+  color: #ffe95d;
   margin-bottom: 30px;
   font-family: "Syne", sans-serif;
   font-optical-sizing: auto;
@@ -463,49 +470,88 @@ aside .aside-content ol li .resume:hover {
 
 .main.about_me .about_content {
   margin-bottom: 40px;
+  color: #e1e1e1;
 }
 
 .main.about_me .about_content p {
   margin-bottom: 15px;
-  font-size: 20px;
+  font-size: 17px;
+}
+.main.about_me  .head {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #e1e1e1;
+  font-family: "Space Grotesk", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 800;
 }
 
 .main.about_me .about_content ul {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
   max-width: 300px;
-  font-size: 20px;
+  font-size: 20px; */
+  list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+
 }
 
 .main.about_me .about_content ul li {
-  flex-basis: 50%;
+  /* flex-basis: 50%;
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 20px; */
+  
 }
 
-.main.about_me .about_content ul li:before {
+/* .main.about_me .about_content ul li:before {
   content: "▹";
   left: 0px;
-  color: #7ac9ed;
+  color: #e1e1e1;
   font-size: 20px;
   line-height: 12px;
   padding-right: 5px;
+} */
+
+.main.about_me .about_content .icon-container {
+  display: flex;
+  justify-content: left;
 }
 
+.main.about_me .about_content .icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 15px; /* Adjust the spacing between icons */
+}
+
+.main.about_me .about_content .icon {
+  font-size: 3.5rem; /* Adjust the size as needed */
+  
+}
+
+.main.about_me .about_content .icon-text {
+  font-size: 0.8rem; /* Adjust the text size as needed */
+}
 .main.about_me .about_img {
   margin: 30px auto 50px;
   width: auto;
-  background-color: #7ac9ed;
+  /* background-color: #7ac9ed; */
   position: relative;
   max-width: 250px;
   border-radius: 15px;
+  border-color: #B3D9F1;
 }
 
 .main.about_me .about_img img {
   max-width: 100%;
-  width: 300px;
+  width:100%;
   vertical-align: middle;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   mix-blend-mode: multiply;
   transition: opacity 500ms ease 0s;
   border-radius: 15px;
@@ -515,7 +561,29 @@ aside .aside-content ol li .resume:hover {
   filter: none;
   mix-blend-mode: normal;
 }
+.main.about_me  .about_content a {
+  margin: 30px 0 30px ;
+  background-color: transparent;
+  border: 2px solid #ffe95d;
+  padding: 10px 23px;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  font-size: 18px;
+  color: #ffe95d;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  width: 150px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: normal;
+}
 
+.main.about_me  .about_content a:hover {
+  cursor: pointer;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
 /* --About me Section */
 
 /* Project Section */
@@ -593,7 +661,7 @@ aside .aside-content ol li .resume:hover {
 
 /* Get In Touch Section */
 .main.get_in_touch .title {
-  font-size: 40px;
+  font-size: 60px;
   color: #ccd6f6;
   margin-bottom: 30px;
   text-align: center;
@@ -638,6 +706,8 @@ footer .socialMedia ul li a {
 }
 
 /* --Footer  Section */
+
+/* --Animation in Intro */
 .annim{
   position: relative;
   animation: le 600ms infinite alternate;
@@ -648,4 +718,25 @@ footer .socialMedia ul li a {
   80%{transform: rotate(-1deg);}
   100%{top:10px}
 
+}
+
+.main .intro .icon-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main.intro .icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 15px; /* Adjust the spacing between icons */
+}
+
+.main.intro .icon {
+  font-size: 3.4rem; /* Adjust the size as needed */
+  
+}
+
+.main.intro .icon-text {
+  font-size: 0.8rem; /* Adjust the text size as needed */
 }

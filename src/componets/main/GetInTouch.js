@@ -10,7 +10,7 @@ const GetInTouch = (props) => {
         Whether you have a question or just want to say hi, I'll try my best to
         get back to you!
       </p>
-      <a href="mailto:costache.robert.valentin@gmail.com">Say Hello</a>
+      <a href="mailto:shruti128770@gmail.com">Shoot me an Email</a>
     </section>
   );
 };

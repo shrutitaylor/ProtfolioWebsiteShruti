@@ -59,7 +59,7 @@ const Nav = (props) => {
           <a
             className="resume"
             target="_blank"
-            href="/static/cv/Costache%20Robert%20Cv.pdf"
+            href="mailto:shruti128770@gmail.com"
           >
            Get In Touch
           </a>
