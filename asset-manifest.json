@@ -1,29 +1,32 @@
 {
   "files": {
-    "main.css": "/ProtfolioWebsiteShruti/static/css/main.96d2c5a8.chunk.css",
-    "main.js": "/ProtfolioWebsiteShruti/static/js/main.d3cae5f0.chunk.js",
-    "main.js.map": "/ProtfolioWebsiteShruti/static/js/main.d3cae5f0.chunk.js.map",
+    "main.css": "/ProtfolioWebsiteShruti/static/css/main.f96dbb9a.chunk.css",
+    "main.js": "/ProtfolioWebsiteShruti/static/js/main.bd9183c6.chunk.js",
+    "main.js.map": "/ProtfolioWebsiteShruti/static/js/main.bd9183c6.chunk.js.map",
     "runtime-main.js": "/ProtfolioWebsiteShruti/static/js/runtime-main.fd56241f.js",
     "runtime-main.js.map": "/ProtfolioWebsiteShruti/static/js/runtime-main.fd56241f.js.map",
-    "static/js/2.150da6fa.chunk.js": "/ProtfolioWebsiteShruti/static/js/2.150da6fa.chunk.js",
-    "static/js/2.150da6fa.chunk.js.map": "/ProtfolioWebsiteShruti/static/js/2.150da6fa.chunk.js.map",
+    "static/css/2.8afa4986.chunk.css": "/ProtfolioWebsiteShruti/static/css/2.8afa4986.chunk.css",
+    "static/js/2.50927fcf.chunk.js": "/ProtfolioWebsiteShruti/static/js/2.50927fcf.chunk.js",
+    "static/js/2.50927fcf.chunk.js.map": "/ProtfolioWebsiteShruti/static/js/2.50927fcf.chunk.js.map",
     "index.html": "/ProtfolioWebsiteShruti/index.html",
-    "precache-manifest.444b55052cfa04cd0758c7ad5feda4b1.js": "/ProtfolioWebsiteShruti/precache-manifest.444b55052cfa04cd0758c7ad5feda4b1.js",
+    "precache-manifest.f6c4381c459b46a8a40d2359f0778b08.js": "/ProtfolioWebsiteShruti/precache-manifest.f6c4381c459b46a8a40d2359f0778b08.js",
     "service-worker.js": "/ProtfolioWebsiteShruti/service-worker.js",
-    "static/css/main.96d2c5a8.chunk.css.map": "/ProtfolioWebsiteShruti/static/css/main.96d2c5a8.chunk.css.map",
-    "static/js/2.150da6fa.chunk.js.LICENSE.txt": "/ProtfolioWebsiteShruti/static/js/2.150da6fa.chunk.js.LICENSE.txt",
-    "static/media/hiIamShruti.png": "/ProtfolioWebsiteShruti/static/media/hiIamShruti.bffe0c4a.png",
+    "static/css/2.8afa4986.chunk.css.map": "/ProtfolioWebsiteShruti/static/css/2.8afa4986.chunk.css.map",
+    "static/css/main.f96dbb9a.chunk.css.map": "/ProtfolioWebsiteShruti/static/css/main.f96dbb9a.chunk.css.map",
+    "static/js/2.50927fcf.chunk.js.LICENSE.txt": "/ProtfolioWebsiteShruti/static/js/2.50927fcf.chunk.js.LICENSE.txt",
+    "static/media/all.min.css": "/ProtfolioWebsiteShruti/static/media/fa-v4compatibility.c9e50cca.woff2",
     "static/media/main_project2.JPG": "/ProtfolioWebsiteShruti/static/media/main_project2.b810c0d3.JPG",
     "static/media/main_project3.png": "/ProtfolioWebsiteShruti/static/media/main_project3.55102553.png",
-    "static/media/main_project4.JPG": "/ProtfolioWebsiteShruti/static/media/main_project4.e7706002.JPG",
-    "static/media/main_project5.PNG": "/ProtfolioWebsiteShruti/static/media/main_project5.4ae9df0b.PNG",
+    "static/media/resume_shruti.pdf": "/ProtfolioWebsiteShruti/static/media/resume_shruti.ad07492d.pdf",
     "static/media/shruti-logo-nobg.png": "/ProtfolioWebsiteShruti/static/media/shruti-logo-nobg.fd1b8d8c.png",
-    "static/media/shrutidp.jpg": "/ProtfolioWebsiteShruti/static/media/shrutidp.a9202bf3.jpg"
+    "static/media/shruti-middle.png": "/ProtfolioWebsiteShruti/static/media/shruti-middle.cbd0511c.png",
+    "static/media/shrutidp.jpg": "/ProtfolioWebsiteShruti/static/media/shrutidp.eb1dbb62.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.fd56241f.js",
-    "static/js/2.150da6fa.chunk.js",
-    "static/css/main.96d2c5a8.chunk.css",
-    "static/js/main.d3cae5f0.chunk.js"
+    "static/css/2.8afa4986.chunk.css",
+    "static/js/2.50927fcf.chunk.js",
+    "static/css/main.f96dbb9a.chunk.css",
+    "static/js/main.bd9183c6.chunk.js"
   ]
 }
