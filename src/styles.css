@@ -549,7 +549,7 @@ aside .aside-content ol li .resume:hover {
 
 .main.about_me .about_img img {
   max-width: 100%;
-  width: 300px;
+  width:100%;
   vertical-align: middle;
   filter: grayscale(100%);
   mix-blend-mode: multiply;
