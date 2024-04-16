@@ -1,6 +1,4 @@
-import DeveloperModeIcon from "@material-ui/icons/DeveloperMode";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import OpenInNewIcon from "@material-ui/icons/OpenInNew";
 import React from "react";
 
 const MainProject = (props) => {
@@ -34,32 +32,16 @@ const MainProject = (props) => {
         <img src={projectImg} alt={projectLink} />
       </a>
       <div className="left-container">
-        <h4>{mainTitle}</h4>
+        <h4 className="project_title">{mainTitle}</h4>
         <div className="text-content">{content}</div>
         <span>Technologies used:</span>
         <ul className="technologies">{tech}</ul>
         <div className="links-feature">
-          <span>External Links: </span>
           <a className="git-hub" href={gitHub} target="_blank" rel="noreferrer">
-            <GitHubIcon />
+            <GitHubIcon style={{fontSize:"4.5rem"}} />
           </a>
-          <a
-            className="external-link"
-            href={projectLink}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <OpenInNewIcon />
-          </a>
-
-          <a
-            className="external-link"
-            href={liveCode}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <DeveloperModeIcon />
-          </a>
+          <a href={projectLink} target="_blank" rel="noopener noreferrer" className="live-site-button">LIVE SITE</a>
+          
         </div>
       </div>
     </section>

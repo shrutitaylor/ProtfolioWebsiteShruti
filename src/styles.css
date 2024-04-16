@@ -616,47 +616,99 @@ aside .aside-content ol li .resume:hover {
 .main.main-project .img-container img {
   max-width: 100%;
   height: auto;
-  filter: grayscale(100%);
-  mix-blend-mode: multiply;
+  /* filter: grayscale(100%); */
+  /* mix-blend-mode: multiply; */
   transition: opacity 500ms ease 0s;
 }
 
 .main.main-project .img-container:hover img {
   filter: none;
-  mix-blend-mode: normal;
+  /* mix-blend-mode: normal; */
 }
 
 .main.main-project .left-container span {
   display: block;
   margin-bottom: 5px;
   font-size: 14px;
+  color: #e6f1ff;
+  padding-left: 15px;
 }
 
 .main.main-project .left-container .text-content {
-  background-color: #172a45;
-  padding: 10px;
+  color: #e6f1ff;
+  padding: 15px;
   margin: 15px 0px;
   border-radius: 15px;
+  font-size: 17px;
+ 
 }
 
 .main.main-project .left-container .technologies li {
   display: inline-block;
   padding-right: 10px;
-  font-size: 14px;
+  font-size: 17px;
   margin-bottom: 20px;
+  color: #e6f1ff;
+  padding-left: 15px;
 }
 
 .main.main-project .left-container h4 {
-  color: #e6f1ff;
-  font-size: 24px;
+  color: #FFED77;
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: "SemiBold";
+  font-size: 30px;
+  margin: 10px 0 10px 0;
 }
-
-.main.main-project .left-container .links-feature a {
+.main.main-project .left-container .links-feature  {
   color: #e6f1ff;
   padding-right: 10px;
   margin-bottom: 10px;
+  font-size: 50px;
+  flex-direction: row;
+  display: flex;
+  padding-left: 15px;
+  
+}
+.main.main-project .left-container .links-feature .git-hub {
+
+  background-color: transparent;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  font-size: 18px;
+  color: #ffe95d;
+  letter-spacing: 3px;
+  line-height: normal;
 }
 
+.main.main-project .left-container .links-feature .git-hub:hover {
+  cursor: pointer;
+  color: #ffffff;
+
+}
+.main.main-project .left-container .links-feature .live-site-button {
+  margin: 15px 0 30px 30px ;
+  background-color: transparent;
+  border: 2px solid #ffe95d;
+  padding: 10px 23px;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  font-size: 18px;
+  color: #ffe95d;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  width: 150px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: normal;
+}
+
+.main.main-project .left-container .links-feature .live-site-button:hover {
+  cursor: pointer;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
 /* --Project Section */
 
 /* Get In Touch Section */
@@ -690,6 +742,7 @@ aside .aside-content ol li .resume:hover {
   width: 100px;
 }
 /* --Get In Touch  Section */
+
 
 /* Footer Section */
 footer {

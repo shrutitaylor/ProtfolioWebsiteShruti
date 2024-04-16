@@ -25,7 +25,7 @@ const Footer = () => {
               <LinkedInIcon style={{ fontSize: 30 }} />
             </a>
             <a
-              href="https://codesandbox.io/u/DONROB3R7/sandboxes"
+              href="https://github.com/shrutitaylor/"
               target="_blank"
               rel="nofollow noopener noreferrer"
             >
