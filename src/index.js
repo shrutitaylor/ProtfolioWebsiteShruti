@@ -11,8 +11,8 @@ import MainProject from "./componets/main/MainProject";
 import Nav from "./componets/main/Nav";
 import ProjectsIntro from "./componets/main/ProjectsIntro";
 // Images
-import mainProject2 from "./img/main_project2.JPG";
-import mainProject3 from "./img/main_project3.png";
+
+import SoilOrganicWebsite from "./img/SoilOrganicWebsite.png";
 import AboutMeImg from "./img/shrutidp.jpg";
 
 // Resume
@@ -111,39 +111,26 @@ class Main extends Component {
 
             <MainProject
               id="projects"
-              liveCode="https://codesandbox.io/s/thevenue-y49si"
-              projectImg={mainProject2}
-              projectLink="https://y49si.csb.app/"
-              mainTitle="The Venue"
-              content="Created a full web page application, with a carousel and countdown timer. Used 
-              material-ui to create the website functionality like ToolBar, AppBar, Buttton, Drawer, 
-              ListItem. Used react-reveal to add animation such as: Fade,Flip,Rotate,Zoom."
+              liveCode="https://shrutitaylor.github.io/SoilOrganicFood.github.io/"
+              projectImg={SoilOrganicWebsite}
+              projectLink="https://shrutitaylor.github.io/SoilOrganicFood.github.io/"
+              mainTitle="Soil Organic Grocery"
+              content="Created a full web page application, with Login Authentication. Used 
+              React to create the website functionality. It has all the Cart functionalities required for a Online shopping Website.
+              Used react-reveal to add animation such as: Fade,Flip,Rotate,Zoom."
               technologies={[
+                "React",
                 "HTML5",
                 "CSS3",
                 "JS",
-                "Material-Ui",
                 "React",
                 "React-revel",
-                "React-scroll,"
+                "React-scroll"
               ]}
-              gitHub="https://github.com/DONROB3R7/The-Venue"
+              gitHub="https://github.com/shrutitaylor/SoilOrganicFood.github.io"
             />
 
-            <MainProject
-              id="projects"
-              liveCode="https://codesandbox.io/s/coding-challenges-react-tyxy6"
-              projectImg={mainProject3}
-              projectLink="https://tyxy6.csb.app/"
-              mainTitle="Coding Challenges in React"
-              content="Implemented and solved the most popular code challenges in 
-              JavaScript such as Fizz Buzz, Harmless Ransom, Palindrome, 
-              Caesar Cipher, Reverse Words, Reverse Array, Two Sum, Fibonacci,
-               Memoized Fibonacci, Mean Median Mode, Mean Median Mode, Binary Search, 
-               Sieve of Eratosthenes, Bubble Sort, Merge Sort, Max Stock Profit."
-              technologies={["HTML5", "CSS3", "JS", "React"]}
-              gitHub="https://github.com/DONROB3R7/Algorithms-React"
-            />
+          
 
           
           </Zoom>
