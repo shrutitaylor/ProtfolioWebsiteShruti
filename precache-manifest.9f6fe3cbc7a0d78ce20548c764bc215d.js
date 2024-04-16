@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c02e6f80e0d1cb4e495742e84ac89f5f",
+    "revision": "a4ec6ffeb659e1eeaab32a588f3e65fd",
     "url": "/ProtfolioWebsiteShruti/index.html"
   },
   {
-    "revision": "7adcacd71f486100c9d1",
+    "revision": "d277934bc8655c7395da",
     "url": "/ProtfolioWebsiteShruti/static/css/2.8afa4986.chunk.css"
   },
   {
-    "revision": "ced4a990ac7340ef058e",
-    "url": "/ProtfolioWebsiteShruti/static/css/main.f96dbb9a.chunk.css"
+    "revision": "5aa75396419c59fe7808",
+    "url": "/ProtfolioWebsiteShruti/static/css/main.d2bd3a3a.chunk.css"
   },
   {
-    "revision": "7adcacd71f486100c9d1",
-    "url": "/ProtfolioWebsiteShruti/static/js/2.50927fcf.chunk.js"
+    "revision": "d277934bc8655c7395da",
+    "url": "/ProtfolioWebsiteShruti/static/js/2.5e94d6bc.chunk.js"
   },
   {
     "revision": "cab73cc260e598da7b3af129563eb7ca",
-    "url": "/ProtfolioWebsiteShruti/static/js/2.50927fcf.chunk.js.LICENSE.txt"
+    "url": "/ProtfolioWebsiteShruti/static/js/2.5e94d6bc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ced4a990ac7340ef058e",
-    "url": "/ProtfolioWebsiteShruti/static/js/main.bd9183c6.chunk.js"
+    "revision": "5aa75396419c59fe7808",
+    "url": "/ProtfolioWebsiteShruti/static/js/main.c3de5b0e.chunk.js"
   },
   {
     "revision": "8d84001d8fd2062e34c4",
     "url": "/ProtfolioWebsiteShruti/static/js/runtime-main.fd56241f.js"
+  },
+  {
+    "revision": "4f221a0f6a3d8e0fe33d1eb587689799",
+    "url": "/ProtfolioWebsiteShruti/static/media/SoilOrganicWebsite.4f221a0f.png"
   },
   {
     "revision": "1931427c23716bb4ff98d03627f7137c",
@@ -58,14 +62,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c9e50ccabe9e36f370272197595ea1e5",
     "url": "/ProtfolioWebsiteShruti/static/media/fa-v4compatibility.c9e50cca.woff2"
-  },
-  {
-    "revision": "b810c0d32d375e0ac48a8c2bcb12b9b9",
-    "url": "/ProtfolioWebsiteShruti/static/media/main_project2.b810c0d3.JPG"
-  },
-  {
-    "revision": "551025531f81ad1847eb420f8ac4d2e0",
-    "url": "/ProtfolioWebsiteShruti/static/media/main_project3.55102553.png"
   },
   {
     "revision": "ad07492dcd52440593c7d60520a9d923",
