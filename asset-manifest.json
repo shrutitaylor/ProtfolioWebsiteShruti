@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ProtfolioWebsiteShruti/static/css/main.d2bd3a3a.chunk.css",
-    "main.js": "/ProtfolioWebsiteShruti/static/js/main.c3de5b0e.chunk.js",
-    "main.js.map": "/ProtfolioWebsiteShruti/static/js/main.c3de5b0e.chunk.js.map",
+    "main.css": "/ProtfolioWebsiteShruti/static/css/main.fd8475c2.chunk.css",
+    "main.js": "/ProtfolioWebsiteShruti/static/js/main.8ee646b8.chunk.js",
+    "main.js.map": "/ProtfolioWebsiteShruti/static/js/main.8ee646b8.chunk.js.map",
     "runtime-main.js": "/ProtfolioWebsiteShruti/static/js/runtime-main.fd56241f.js",
     "runtime-main.js.map": "/ProtfolioWebsiteShruti/static/js/runtime-main.fd56241f.js.map",
     "static/css/2.8afa4986.chunk.css": "/ProtfolioWebsiteShruti/static/css/2.8afa4986.chunk.css",
     "static/js/2.5e94d6bc.chunk.js": "/ProtfolioWebsiteShruti/static/js/2.5e94d6bc.chunk.js",
     "static/js/2.5e94d6bc.chunk.js.map": "/ProtfolioWebsiteShruti/static/js/2.5e94d6bc.chunk.js.map",
     "index.html": "/ProtfolioWebsiteShruti/index.html",
-    "precache-manifest.9f6fe3cbc7a0d78ce20548c764bc215d.js": "/ProtfolioWebsiteShruti/precache-manifest.9f6fe3cbc7a0d78ce20548c764bc215d.js",
+    "precache-manifest.3e6b3a38024ecf9fd39cd5336c6d2365.js": "/ProtfolioWebsiteShruti/precache-manifest.3e6b3a38024ecf9fd39cd5336c6d2365.js",
     "service-worker.js": "/ProtfolioWebsiteShruti/service-worker.js",
     "static/css/2.8afa4986.chunk.css.map": "/ProtfolioWebsiteShruti/static/css/2.8afa4986.chunk.css.map",
-    "static/css/main.d2bd3a3a.chunk.css.map": "/ProtfolioWebsiteShruti/static/css/main.d2bd3a3a.chunk.css.map",
+    "static/css/main.fd8475c2.chunk.css.map": "/ProtfolioWebsiteShruti/static/css/main.fd8475c2.chunk.css.map",
     "static/js/2.5e94d6bc.chunk.js.LICENSE.txt": "/ProtfolioWebsiteShruti/static/js/2.5e94d6bc.chunk.js.LICENSE.txt",
     "static/media/SoilOrganicWebsite.png": "/ProtfolioWebsiteShruti/static/media/SoilOrganicWebsite.4f221a0f.png",
     "static/media/all.min.css": "/ProtfolioWebsiteShruti/static/media/fa-v4compatibility.c9e50cca.woff2",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.fd56241f.js",
     "static/css/2.8afa4986.chunk.css",
     "static/js/2.5e94d6bc.chunk.js",
-    "static/css/main.d2bd3a3a.chunk.css",
-    "static/js/main.c3de5b0e.chunk.js"
+    "static/css/main.fd8475c2.chunk.css",
+    "static/js/main.8ee646b8.chunk.js"
   ]
 }
