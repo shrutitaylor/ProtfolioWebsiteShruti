@@ -4,7 +4,7 @@ import { faAngular, faCss3, faGithub, faHtml5, faNode, faReact } from '@fortawes
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // Resume
 import React from "react";
-import resumePDF from "./resume_shruti.pdf";
+import resumePDF from "./Resume26April2024.pdf";
 const AboutMe = (props) => {
   return (
     <section className="main about_me" id={props.id}>
