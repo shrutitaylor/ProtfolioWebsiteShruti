@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2e56edf8899cbb3fb2bcd9bf404bfb66",
+    "revision": "4eb0fc97bd51170a04fa9b509ba2633c",
     "url": "/ProtfolioWebsiteShruti/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ProtfolioWebsiteShruti/static/css/2.8afa4986.chunk.css"
   },
   {
-    "revision": "1cffb3799896cbf43fb6",
+    "revision": "7165542d829584309a8d",
     "url": "/ProtfolioWebsiteShruti/static/css/main.fd8475c2.chunk.css"
   },
   {
@@ -20,12 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ProtfolioWebsiteShruti/static/js/2.5e94d6bc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1cffb3799896cbf43fb6",
-    "url": "/ProtfolioWebsiteShruti/static/js/main.8ee646b8.chunk.js"
+    "revision": "7165542d829584309a8d",
+    "url": "/ProtfolioWebsiteShruti/static/js/main.ebb3d751.chunk.js"
   },
   {
     "revision": "8d84001d8fd2062e34c4",
     "url": "/ProtfolioWebsiteShruti/static/js/runtime-main.fd56241f.js"
+  },
+  {
+    "revision": "6719107b3cb7b6a22b370e74f94062bc",
+    "url": "/ProtfolioWebsiteShruti/static/media/Resume26April2024.6719107b.pdf"
   },
   {
     "revision": "4f221a0f6a3d8e0fe33d1eb587689799",
@@ -62,10 +66,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c9e50ccabe9e36f370272197595ea1e5",
     "url": "/ProtfolioWebsiteShruti/static/media/fa-v4compatibility.c9e50cca.woff2"
-  },
-  {
-    "revision": "ad07492dcd52440593c7d60520a9d923",
-    "url": "/ProtfolioWebsiteShruti/static/media/resume_shruti.ad07492d.pdf"
   },
   {
     "revision": "fd1b8d8c4a92c8f2742d395981456828",

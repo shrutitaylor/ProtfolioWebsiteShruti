@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/ProtfolioWebsiteShruti/static/css/main.fd8475c2.chunk.css",
-    "main.js": "/ProtfolioWebsiteShruti/static/js/main.8ee646b8.chunk.js",
-    "main.js.map": "/ProtfolioWebsiteShruti/static/js/main.8ee646b8.chunk.js.map",
+    "main.js": "/ProtfolioWebsiteShruti/static/js/main.ebb3d751.chunk.js",
+    "main.js.map": "/ProtfolioWebsiteShruti/static/js/main.ebb3d751.chunk.js.map",
     "runtime-main.js": "/ProtfolioWebsiteShruti/static/js/runtime-main.fd56241f.js",
     "runtime-main.js.map": "/ProtfolioWebsiteShruti/static/js/runtime-main.fd56241f.js.map",
     "static/css/2.8afa4986.chunk.css": "/ProtfolioWebsiteShruti/static/css/2.8afa4986.chunk.css",
     "static/js/2.5e94d6bc.chunk.js": "/ProtfolioWebsiteShruti/static/js/2.5e94d6bc.chunk.js",
     "static/js/2.5e94d6bc.chunk.js.map": "/ProtfolioWebsiteShruti/static/js/2.5e94d6bc.chunk.js.map",
     "index.html": "/ProtfolioWebsiteShruti/index.html",
-    "precache-manifest.3e6b3a38024ecf9fd39cd5336c6d2365.js": "/ProtfolioWebsiteShruti/precache-manifest.3e6b3a38024ecf9fd39cd5336c6d2365.js",
+    "precache-manifest.3511b6ad04217f462aea8301d1d9a003.js": "/ProtfolioWebsiteShruti/precache-manifest.3511b6ad04217f462aea8301d1d9a003.js",
     "service-worker.js": "/ProtfolioWebsiteShruti/service-worker.js",
     "static/css/2.8afa4986.chunk.css.map": "/ProtfolioWebsiteShruti/static/css/2.8afa4986.chunk.css.map",
     "static/css/main.fd8475c2.chunk.css.map": "/ProtfolioWebsiteShruti/static/css/main.fd8475c2.chunk.css.map",
     "static/js/2.5e94d6bc.chunk.js.LICENSE.txt": "/ProtfolioWebsiteShruti/static/js/2.5e94d6bc.chunk.js.LICENSE.txt",
+    "static/media/Resume26April2024.pdf": "/ProtfolioWebsiteShruti/static/media/Resume26April2024.6719107b.pdf",
     "static/media/SoilOrganicWebsite.png": "/ProtfolioWebsiteShruti/static/media/SoilOrganicWebsite.4f221a0f.png",
     "static/media/all.min.css": "/ProtfolioWebsiteShruti/static/media/fa-v4compatibility.c9e50cca.woff2",
-    "static/media/resume_shruti.pdf": "/ProtfolioWebsiteShruti/static/media/resume_shruti.ad07492d.pdf",
     "static/media/shruti-logo-nobg.png": "/ProtfolioWebsiteShruti/static/media/shruti-logo-nobg.fd1b8d8c.png",
     "static/media/shruti-middle.png": "/ProtfolioWebsiteShruti/static/media/shruti-middle.cbd0511c.png",
     "static/media/shrutidp.jpg": "/ProtfolioWebsiteShruti/static/media/shrutidp.eb1dbb62.jpg"
@@ -26,6 +26,6 @@
     "static/css/2.8afa4986.chunk.css",
     "static/js/2.5e94d6bc.chunk.js",
     "static/css/main.fd8475c2.chunk.css",
-    "static/js/main.8ee646b8.chunk.js"
+    "static/js/main.ebb3d751.chunk.js"
   ]
 }
