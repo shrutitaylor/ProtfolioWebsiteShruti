@@ -821,3 +821,15 @@ footer .socialMedia ul li a {
 .main.intro .icon-text {
   font-size: 0.8rem; /* Adjust the text size as needed */
 }
+.hiImage{
+  margin:50px 100px;
+  object-fit: 'cover';
+  font-optical-sizing: 'auto';
+}
+
+@media (width <= 800px) {
+  .hiImage{
+    width: 300px;
+  }
+  
+}
