@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4eb0fc97bd51170a04fa9b509ba2633c",
+    "revision": "2b4384709b21ad3620e22e1d095d2204",
     "url": "/ProtfolioWebsiteShruti/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ProtfolioWebsiteShruti/static/css/2.8afa4986.chunk.css"
   },
   {
-    "revision": "7165542d829584309a8d",
-    "url": "/ProtfolioWebsiteShruti/static/css/main.fd8475c2.chunk.css"
+    "revision": "855bb55bed3c56a54657",
+    "url": "/ProtfolioWebsiteShruti/static/css/main.a504c5a7.chunk.css"
   },
   {
     "revision": "d277934bc8655c7395da",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ProtfolioWebsiteShruti/static/js/2.5e94d6bc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7165542d829584309a8d",
-    "url": "/ProtfolioWebsiteShruti/static/js/main.ebb3d751.chunk.js"
+    "revision": "855bb55bed3c56a54657",
+    "url": "/ProtfolioWebsiteShruti/static/js/main.3e88b891.chunk.js"
   },
   {
     "revision": "8d84001d8fd2062e34c4",
