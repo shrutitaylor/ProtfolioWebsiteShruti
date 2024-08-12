@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-scroll";
+import resumePDF from "./Resume26April2024.pdf";
 
 const Aside = React.forwardRef((props, ref) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleLinkClick = () => {
+    setIsOpen(false); // Close the sidebar after clicking a link
+  };
+
   return (
-    <aside ref={ref} className={props.class}>
+    <aside ref={ref} className={`${props.class} ${isOpen ? 'open' : ''}`}>
       <div className="aside-content">
         <ol>
           <li>
@@ -14,20 +21,9 @@ const Aside = React.forwardRef((props, ref) => {
               smooth={true}
               duration={500}
               offset={-70}
+              onClick={handleLinkClick}
             >
               About
-            </Link>
-          </li>
-          <li>
-            <Link
-              activeClass="active"
-              to="experience"
-              smooth={true}
-              spy={true}
-              duration={500}
-              offset={-70}
-            >
-              Experience
             </Link>
           </li>
           <li>
@@ -38,6 +34,7 @@ const Aside = React.forwardRef((props, ref) => {
               spy={true}
               duration={500}
               offset={-70}
+              onClick={handleLinkClick}
             >
               Projects
             </Link>
@@ -50,6 +47,7 @@ const Aside = React.forwardRef((props, ref) => {
               spy={true}
               duration={500}
               offset={-70}
+              onClick={handleLinkClick}
             >
               Contact
             </Link>
@@ -58,7 +56,8 @@ const Aside = React.forwardRef((props, ref) => {
             <a
               className="resume"
               target="_blank"
-              href="/static/cv/Costache%20Robert%20Cv.pdf"
+              href={resumePDF}
+              onClick={handleLinkClick}
             >
               Resume
             </a>

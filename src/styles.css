@@ -297,9 +297,12 @@ aside {
   height: 100vh;
   z-index: 11;
   outline: 0px;
-  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+
   transform: translateX(100vw);
   visibility: visible;
+
+
+  transition: transform 0.3s ease-in-out;
 }
 
 aside.open {
@@ -310,7 +313,7 @@ aside .aside-content {
   padding: 50px;
   height: 100%;
   position: relative;
-  background-color: rgb(23, 42, 69);
+  background-color: #1e1e1e;
 }
 
 aside .aside-content ol {
@@ -822,7 +825,7 @@ footer .socialMedia ul li a {
   font-size: 0.8rem; /* Adjust the text size as needed */
 }
 .hiImage{
-  margin:50px ;
+  margin:20px 50px ;
   object-fit: 'cover';
   font-optical-sizing: 'auto';
 }
@@ -830,6 +833,9 @@ footer .socialMedia ul li a {
 @media (width <= 800px) {
   .hiImage{
     width: 300px;
+  }
+  .main.intro{
+    min-height: 80vh;
   }
   
 }
