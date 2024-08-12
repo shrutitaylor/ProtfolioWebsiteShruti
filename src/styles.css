@@ -822,7 +822,7 @@ footer .socialMedia ul li a {
   font-size: 0.8rem; /* Adjust the text size as needed */
 }
 .hiImage{
-  margin:50px 100px;
+  margin:50px ;
   object-fit: 'cover';
   font-optical-sizing: 'auto';
 }
