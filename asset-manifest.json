@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ProtfolioWebsiteShruti/static/css/main.7354633f.chunk.css",
-    "main.js": "/ProtfolioWebsiteShruti/static/js/main.3e88b891.chunk.js",
-    "main.js.map": "/ProtfolioWebsiteShruti/static/js/main.3e88b891.chunk.js.map",
+    "main.css": "/ProtfolioWebsiteShruti/static/css/main.508247dd.chunk.css",
+    "main.js": "/ProtfolioWebsiteShruti/static/js/main.fa63e483.chunk.js",
+    "main.js.map": "/ProtfolioWebsiteShruti/static/js/main.fa63e483.chunk.js.map",
     "runtime-main.js": "/ProtfolioWebsiteShruti/static/js/runtime-main.fd56241f.js",
     "runtime-main.js.map": "/ProtfolioWebsiteShruti/static/js/runtime-main.fd56241f.js.map",
     "static/css/2.8afa4986.chunk.css": "/ProtfolioWebsiteShruti/static/css/2.8afa4986.chunk.css",
-    "static/js/2.5e94d6bc.chunk.js": "/ProtfolioWebsiteShruti/static/js/2.5e94d6bc.chunk.js",
-    "static/js/2.5e94d6bc.chunk.js.map": "/ProtfolioWebsiteShruti/static/js/2.5e94d6bc.chunk.js.map",
+    "static/js/2.7bb8db2b.chunk.js": "/ProtfolioWebsiteShruti/static/js/2.7bb8db2b.chunk.js",
+    "static/js/2.7bb8db2b.chunk.js.map": "/ProtfolioWebsiteShruti/static/js/2.7bb8db2b.chunk.js.map",
     "index.html": "/ProtfolioWebsiteShruti/index.html",
-    "precache-manifest.c78ab09b7c2233b7cc77e6eb86145f7a.js": "/ProtfolioWebsiteShruti/precache-manifest.c78ab09b7c2233b7cc77e6eb86145f7a.js",
+    "precache-manifest.067c40850de9d5cc3f5d46e060f6d4b4.js": "/ProtfolioWebsiteShruti/precache-manifest.067c40850de9d5cc3f5d46e060f6d4b4.js",
     "service-worker.js": "/ProtfolioWebsiteShruti/service-worker.js",
     "static/css/2.8afa4986.chunk.css.map": "/ProtfolioWebsiteShruti/static/css/2.8afa4986.chunk.css.map",
-    "static/css/main.7354633f.chunk.css.map": "/ProtfolioWebsiteShruti/static/css/main.7354633f.chunk.css.map",
-    "static/js/2.5e94d6bc.chunk.js.LICENSE.txt": "/ProtfolioWebsiteShruti/static/js/2.5e94d6bc.chunk.js.LICENSE.txt",
+    "static/css/main.508247dd.chunk.css.map": "/ProtfolioWebsiteShruti/static/css/main.508247dd.chunk.css.map",
+    "static/js/2.7bb8db2b.chunk.js.LICENSE.txt": "/ProtfolioWebsiteShruti/static/js/2.7bb8db2b.chunk.js.LICENSE.txt",
     "static/media/Resume26April2024.pdf": "/ProtfolioWebsiteShruti/static/media/Resume26April2024.6719107b.pdf",
     "static/media/SoilOrganicWebsite.png": "/ProtfolioWebsiteShruti/static/media/SoilOrganicWebsite.4f221a0f.png",
     "static/media/all.min.css": "/ProtfolioWebsiteShruti/static/media/fa-v4compatibility.c9e50cca.woff2",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.fd56241f.js",
     "static/css/2.8afa4986.chunk.css",
-    "static/js/2.5e94d6bc.chunk.js",
-    "static/css/main.7354633f.chunk.css",
-    "static/js/main.3e88b891.chunk.js"
+    "static/js/2.7bb8db2b.chunk.js",
+    "static/css/main.508247dd.chunk.css",
+    "static/js/main.fa63e483.chunk.js"
   ]
 }
