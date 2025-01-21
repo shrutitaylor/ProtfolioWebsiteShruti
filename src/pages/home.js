@@ -1,21 +1,66 @@
-import React, { useState, useEffect } from 'react';
-import '../index.css';
+import React, { useState, useEffect } from "react";
+import "../index.css";
 
 const Home = () => {
   const [currentDate, setCurrentDate] = useState(getDate());
+  const [scrambledDesigner, setScrambledDesigner] = useState("");
+  const finalDesignerText = "DESIGNER";
 
   function getDate() {
     const today = new Date();
-    const months = ["Jan", "Feb", "March", "April", "May", "June", "July", "August", "Sep", "Oct", "Nov", "Dec"];
+    const months = [
+      "Jan",
+      "Feb",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+    ];
     const month = months[today.getMonth()];
     const date = today.getDate();
     return [date, month];
   }
 
+  useEffect(() => {
+    scrambleText(finalDesignerText);
+  }, []);
+
+  const scrambleText = (text) => {
+    const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+    let iterations = 0;
+
+    const interval = setInterval(() => {
+      setScrambledDesigner(
+        text
+          .split("")
+          .map((char, index) => {
+            if (index < iterations) {
+              return char; // Keep revealed characters
+            }
+            return characters[Math.floor(Math.random() * characters.length)];
+          })
+          .join("")
+      );
+
+      if (iterations >= text.length) {
+        clearInterval(interval);
+        setScrambledDesigner(text); // Ensure final text is displayed
+      }
+
+      iterations += 1 / 2; // Adjust speed of character reveal
+    }, 50); // Adjust interval duration for animation speed
+  };
+
   return (
     <div className="relative w-full h-[80vh] mb-[20vh] flex items-center justify-center">
-      <div className="flex flex-row justify-between  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4  text-white">
-       <div></div>
+      <div className="flex flex-row justify-between grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 text-white">
+        <div></div>
         {/* Top Right Section */}
         <div>
           <div className="font-jack text-[70px] leading-[30px] md:lg:text-[100px] md:lg:leading-[50px]">
@@ -35,7 +80,8 @@ const Home = () => {
             creative
           </div>
           <div className="font-tuskerBold text-yellow text-[100px] leading-[100px] md:text-[100px] md:leading-[100px] lg:text-[150px] lg:leading-[120px]">
-            DESIGNER<span className="font-jack text-[50px] text-primaryFont">&</span>
+            {scrambledDesigner}
+            <span className="font-jack text-[50px] text-primaryFont">&</span>
           </div>
           <div className="text-primaryFont font-tuskerBold text-[100px] leading-[50px] md:text-[100px] md:leading-[50px] lg:text-[150px] lg:leading-[100px]">
             DEVELOPER
@@ -43,7 +89,7 @@ const Home = () => {
         </div>
 
         {/* Bottom Right Section */}
-        <div className="flex bottom-1 md:lg:bottom-10 right-0 justify-end mr-5 absolute">
+        <div className="flex bottom-1 md:lg:bottom-10 right-0 justify-end mr-5 md:lg:absolute sm:relative">
           <button className="md:lg:px-7 md:lg:pt-2 md:lg:pb-3 pt-1 pb-2 px-4 font-abril text-md md:lg:text-2xl text-primaryFont border-2 border-primaryFont rounded-full">
             contact me
           </button>

@@ -3,6 +3,7 @@ import './index.css';
 import Navbar from './fragments/navbar';
 import Home from './pages/home';
 import About from './pages/about';
+import Footer from './pages/footer';
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -31,6 +32,12 @@ function App() {
         <div id="about" className="relative">
           <About />
         </div>
+
+        {/* <div id="footer" className={`fixed bottom-0 left-0 w-full h-screen bg-landingImg bg-cover bg-center transition-opacity duration-700 ${
+          scrolled ? 'opacity-100' : 'opacity-0'
+        }`}>
+        <Footer />
+        </div> */}
       </div>
     </div>
   );

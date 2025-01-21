@@ -1,29 +1,15 @@
 import React, { useEffect, useState } from 'react';
-import starryImg from '../assets/images/starry-night.jpg';
 
 
 const Footer = () => {
-
-    const [scrolled, setScrolled] = useState(false);
-
-    useEffect(() => {
-          const handleScroll = () => {
-            // Trigger fade-out when scrolled halfway down the screen
-            setScrolled(window.scrollY > window.innerHeight / 2);
-          };
-      
-          window.addEventListener('scroll', handleScroll);
-          return () => window.removeEventListener('scroll', handleScroll);
-        }, []);
       
 
   return (
-    <img src={starryImg} alt="landing" 
-    className={`w-full top-0 h-screen relative ${
-        scrolled ? 'fade-out' : ''
-      }`} > 
-  
-    </img>
+    <div className="relative w-full h-[80vh] mb-[20vh] flex items-center justify-center">
+    <div className="flex flex-row justify-between  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4  text-white">
+     <div className='text-[200px] font-tusker text-primaryFont'> Let's Connect</div>
+     </div>
+     </div>
   );
 }
 
