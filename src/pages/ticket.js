@@ -44,7 +44,7 @@ const Ticket = () => {
       {projects.map((project, index) => (
         <>
       <motion.div
-                  whileHover={{ scale: 1.2 }}
+                  whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.8 }}
         id="big-rectangle"
         className="hidden md:flex bg-primaryFont relative  m-auto my-5 w-full max-w-[1200px] 2xl:max-w-[1500px] 2xl:min-h-[500px] min-h-[250px] "
