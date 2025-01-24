@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/ProtfolioWebsiteShruti/static/css/main.64bf9ccc.css",
+    "main.js": "/ProtfolioWebsiteShruti/static/js/main.d72d7007.js",
+    "static/js/453.20815797.chunk.js": "/ProtfolioWebsiteShruti/static/js/453.20815797.chunk.js",
+    "static/media/starry-night.jpg": "/ProtfolioWebsiteShruti/static/media/starry-night.ec4a95898a76d7876cfb.jpg",
+    "static/media/soil-website.png": "/ProtfolioWebsiteShruti/static/media/soil-website.81f466c06b6ad8a90f04.png",
+    "static/media/painting-02.jpg": "/ProtfolioWebsiteShruti/static/media/painting-02.2bf73ded0eb2e1802bfc.jpg",
+    "static/media/pathfindr-website.png": "/ProtfolioWebsiteShruti/static/media/pathfindr-website.c368a1ba289d37f317c2.png",
+    "static/media/painting-04.jpg": "/ProtfolioWebsiteShruti/static/media/painting-04.2a11aad161bc22ed5071.jpg",
+    "static/media/Jacquard24.ttf": "/ProtfolioWebsiteShruti/static/media/Jacquard24.1062e97551438e7adf72.ttf",
+    "static/media/profile-img.png": "/ProtfolioWebsiteShruti/static/media/profile-img.628ea5df88e1d0413991.png",
+    "static/media/moodify-website.png": "/ProtfolioWebsiteShruti/static/media/moodify-website.18826d537a18482d861e.png",
+    "static/media/painting-01.jpg": "/ProtfolioWebsiteShruti/static/media/painting-01.f6da4461c7314030a843.jpg",
+    "static/media/Sora.ttf": "/ProtfolioWebsiteShruti/static/media/Sora.e56298aec2e944c699d8.ttf",
+    "static/media/AbrilFatface.ttf": "/ProtfolioWebsiteShruti/static/media/AbrilFatface.c2459f7f69cb5eb788d8.ttf",
+    "static/media/TuskerGrotesk-bold.ttf": "/ProtfolioWebsiteShruti/static/media/TuskerGrotesk-bold.0c9248c4cf477c331a3b.ttf",
+    "static/media/TuskerGrotesk.ttf": "/ProtfolioWebsiteShruti/static/media/TuskerGrotesk.3fe78d062ec285995075.ttf",
+    "static/media/barcode.png": "/ProtfolioWebsiteShruti/static/media/barcode.c0b24ca008212bb965f2.png",
+    "index.html": "/ProtfolioWebsiteShruti/index.html",
+    "main.64bf9ccc.css.map": "/ProtfolioWebsiteShruti/static/css/main.64bf9ccc.css.map",
+    "main.d72d7007.js.map": "/ProtfolioWebsiteShruti/static/js/main.d72d7007.js.map",
+    "453.20815797.chunk.js.map": "/ProtfolioWebsiteShruti/static/js/453.20815797.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64bf9ccc.css",
+    "static/js/main.d72d7007.js"
+  ]
+}
