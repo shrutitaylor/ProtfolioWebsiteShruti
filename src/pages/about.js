@@ -95,13 +95,9 @@ const About = () => {
           <span className="text-yellow">Hello! </span> I'm Shruti
         </h1>
         <p className="font-sora text-md md:lg:text-2xl 2xl:text-4xl">
-          I use my passion and skills to create digital products and experiences.
-          National and international customers rely on me for design,
-          implementation, and management of their digital products. As an
-          independent, I work also with web agencies, companies, startups, and
-          individuals to create a blueprint for the digital business. Advisor and
-          partner of some digital and fintech startups. Also, Judge at CSSDA and
-          The Webby.
+        I blend art and code to create meaningful digital experiences. 
+        Whether it’s designing user-friendly interfaces, building seamless web applications or adding a dash of creativity to every project, I believe in making ideas come alive.
+        <br></br><br></br>So whether you need someone to code a digital masterpiece or paint a literal one, I’m your person! Let’s create something amazing together.
         </p>
       </div>
     </div>

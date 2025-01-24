@@ -5,12 +5,12 @@ const Navbar = ({ scrolled }) => {
 
   return (
     <nav className={`font-abril sticky mb-0 top-0 z-50 ${scrolled ? "bg-opacity-50" : "bg-transparent"}`}>
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <div className="max-w-screen flex flex-wrap items-center justify-between mx-auto md:mx-10 p-4">
         <a className="flex items-center space-x-3 rtl:space-x-reverse">
-          <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">shruti</span>
+          <span className="2xl:text-4xl self-center text-2xl font-semibold whitespace-nowrap text-white">shruti</span>
         </a>
 
-        <div className="hidden w-full md:block md:w-auto" id="navbar-default">
+        <div className="hidden 2xl:text-4xl w-full md:block md:w-auto" id="navbar-default">
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0">
             <li>
               <a
@@ -48,12 +48,7 @@ const Navbar = ({ scrolled }) => {
           </ul>
         </div>
       </div>
-      <div className="bg-primaryFont rounded-full h-[1px] mb-4 mx-5">
-        <div className={`bg-yellow h-[1px] rounded-full w-[5%] ${
-                  activeSection === "work" ? "w-[60%]" : 
-                  activeSection === "about" ? "w-[30%]" : "w-[100%]"
-                } `}></div>
-      </div>
+      
     </nav>
   );
 };

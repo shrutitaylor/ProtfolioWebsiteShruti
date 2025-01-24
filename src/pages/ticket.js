@@ -43,13 +43,15 @@ const Ticket = () => {
       {/* Big screen */}
       {projects.map((project, index) => (
         <>
-      <div
+      <motion.div
+                  whileHover={{ scale: 1.2 }}
+                  whileTap={{ scale: 0.8 }}
         id="big-rectangle"
         className="hidden md:flex bg-primaryFont relative  m-auto my-5 w-full max-w-[1200px] 2xl:max-w-[1500px] 2xl:min-h-[500px] min-h-[250px] "
         >
             {/* Barcode Section  */}
             <div className="hidden xl:flex xl:flex-col justify-start p-5 text-black">
-                <div className="lg:w-[180px] lg:h-[200px]">
+                <div className="lg:w-[180px] lg:h-[200px] ">
                 <img
                     src={barcodeImg}
                     alt="barcode"
@@ -61,8 +63,8 @@ const Ticket = () => {
                 </div>
             </div>
             {/* Project image */}
-            <div className="flex flex-col h-[300px] border-l-4 border-black border-dashed ">
-                <div className="w-[450px] 2xl:w-[600px] h-[300px]">
+            <div className="flex flex-col h-[300px]  2xl:h-[500px] border-l-4 border-black border-dashed ">
+                <div className="w-[450px] 2xl:w-[600px] 2xl:h-[500px] h-[300px]">
                     <a href={project.link} target="_blank" rel="noopener noreferrer">
                         <img 
                             src={project.image}
@@ -119,7 +121,7 @@ const Ticket = () => {
             className="absolute md:w-0 md:h-0 lg:w-10 lg:h-10 bg-black rounded-full"
             style={{ bottom: "-20px", right: "-20px" }}
         ></div>
-        </div>
+        </motion.div>
 
       </>
         ))}
