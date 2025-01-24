@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ProtfolioWebsiteShruti/static/css/main.64bf9ccc.css",
-    "main.js": "/ProtfolioWebsiteShruti/static/js/main.d72d7007.js",
+    "main.js": "/ProtfolioWebsiteShruti/static/js/main.d4861411.js",
     "static/js/453.20815797.chunk.js": "/ProtfolioWebsiteShruti/static/js/453.20815797.chunk.js",
     "static/media/starry-night.jpg": "/ProtfolioWebsiteShruti/static/media/starry-night.ec4a95898a76d7876cfb.jpg",
     "static/media/soil-website.png": "/ProtfolioWebsiteShruti/static/media/soil-website.81f466c06b6ad8a90f04.png",
@@ -19,11 +19,11 @@
     "static/media/barcode.png": "/ProtfolioWebsiteShruti/static/media/barcode.c0b24ca008212bb965f2.png",
     "index.html": "/ProtfolioWebsiteShruti/index.html",
     "main.64bf9ccc.css.map": "/ProtfolioWebsiteShruti/static/css/main.64bf9ccc.css.map",
-    "main.d72d7007.js.map": "/ProtfolioWebsiteShruti/static/js/main.d72d7007.js.map",
+    "main.d4861411.js.map": "/ProtfolioWebsiteShruti/static/js/main.d4861411.js.map",
     "453.20815797.chunk.js.map": "/ProtfolioWebsiteShruti/static/js/453.20815797.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.64bf9ccc.css",
-    "static/js/main.d72d7007.js"
+    "static/js/main.d4861411.js"
   ]
 }
