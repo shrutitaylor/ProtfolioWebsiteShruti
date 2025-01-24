@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import profileImage from "../assets/images/starry-night.jpg";
+import profileImage from "../assets/images/profile-img.png";
 
 const About = () => {
   const [inView, setInView] = useState(false);
@@ -78,7 +78,7 @@ const About = () => {
           <img
             src={profileImage}
             alt="Shruti"
-            className="w-80 h-[400px] relative rounded-[10px]"
+            className="w-[200px] h-[350px] md:lg:w-[350px] md:lg:h-[500px] object-cover relative rounded-[50%]"
           />
           {/* Scramble Text */}
           <div className="flex flex-row absolute bottom-0 left-[100px]">

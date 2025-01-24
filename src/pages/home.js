@@ -54,7 +54,7 @@ const Home = () => {
       }
 
       iterations += 1 / 2; // Adjust speed of character reveal
-    }, 50); // Adjust interval duration for animation speed
+    }, 80); // Adjust interval duration for animation speed
   };
 
   return (

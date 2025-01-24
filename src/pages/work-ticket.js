@@ -34,7 +34,7 @@ const WorkTicket = () => {
         <>
       <div
         id="big-rectangle"
-        className="hidden md:flex relative m-auto my-5 w-full lg:w-[1200px] 4k:w-[1700px] 4k:h-[500px] md:h-[260px] lg:h-[300px] bg-[#FFF9E9]"
+        className="hidden lg:flex relative m-auto my-5 w-full lg:w-[1200px] 4k:w-[1700px] 4k:h-[500px] lg:h-[300px] bg-[#FFF9E9]"
         >
         <div className="justify-start p-5 text-black">
             <div className="4k:w-[180px] 4k:h-[250px]">
@@ -113,34 +113,35 @@ transition={{duration: 2}}
         </div>
 
       </>
-        ))}
+        ))};
 
       {/* Small Screen */}
+      <div className="grid flex lg:hidden sm:grid-cols-1  md:grid-cols-2">
+      {projects.map((project, index) => (
+        <>
+       
       <div
         id="small-rectangle"
-        className="flex md:hidden relative m-auto mb-10 flex-col w-[300px] h-[800px] bg-[#FFF9E9]"
+        className="flex relative m-auto mb-10 flex-col w-[300px] h-[800px] bg-[#FFF9E9]"
       >
         <div className="justify-left pt-10 p-5">
           <text className="font-tuskerBold text-[50px] leading-[50px] text-gray-800 flex text-start">
-            SOIL <br /> Grocery Website
+            {project.title}
           </text>
           <text className="font-sora text-[16px] leading-[30px] text-black flex text-start">
-            UI/UX Design, Development
+            {project.subtitle}
           </text>
         </div>
-        <img src={soilImg} alt="soil" className="w-full h-[180px]" />
+        <img src={project.image} alt="soil" className="w-full h-[180px]" />
 
         <div className="justify-left p-5">
           <text className="font-jack text-[24px] text-black">Description</text>
           <text className="font-sora text-[13px] leading-[13px] text-black flex text-start">
-            An organic food grocery platform built to promote sustainable living
-            and provide users with a seamless shopping experience. It includes
-            authentication login for secure user access and local storage to
-            enhance usability.
+            {project.description}
           </text>
           <text className="font-jack text-[24px] text-black bg-yellow mt-5">Skills - 
           <span className="font-sora text-[15px] leading-[15px] text-black text-start">
-            React, Node.js, Bootstrap
+            {project.techStack.join(", ")}
           </span></text>
         </div>
         <div className="justify-end p-5">
@@ -171,7 +172,12 @@ transition={{duration: 2}}
           style={{ bottom: "200px", left: "-20px" }}
         ></div>
       </div>
+      
+      </>
+      ))};
     </div>
+    </div>
+    
   );
 };
 

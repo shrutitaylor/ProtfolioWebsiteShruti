@@ -26,10 +26,19 @@ module.exports = {
             'transform-origin': 'down',
           },
         },
+        'fadeIn': {
+          '0%': {
+            opacity: '0',
+          },
+          '100%': {
+            opacity: '1',
+          },
+        },
       },
       animation: {
         'ease-out': 'kenburns-top 5s ease-out both',
         'ease-in': 'kenburns-down 5s ease-out both',
+        'fade-in': 'fadeIn 2s ease-in forwards',
       },
       screens: {
         '4k': '2560px', // Custom breakpoint for 4K screens
