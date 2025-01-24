@@ -78,11 +78,11 @@ const About = () => {
           <img
             src={profileImage}
             alt="Shruti"
-            className="w-[200px] h-[350px] md:lg:w-[350px] md:lg:h-[500px] object-cover relative rounded-[50%]"
+            className="w-[200px] h-[350px] md:w-[350px] md:lg:h-[500px] 2xl:w-[500px] object-cover relative rounded-[50%]"
           />
           {/* Scramble Text */}
           <div className="flex flex-row absolute bottom-0 left-[100px]">
-            <span className="font-tusker mt-[100px] text-primaryFont text-[0px] md:lg:text-[70px]">
+            <span className="font-tusker mt-[100px] text-primaryFont text-[0px] md:text-[70px] 2xl:text-[100px] 2xl:ml-[200px]">
               {scrambledText}
             </span>
           </div>
@@ -91,10 +91,10 @@ const About = () => {
 
       {/* Text Section */}
       <div>
-        <h1 className="font-tusker mt-5 text-[50px] md:lg:text-[80px]">
+        <h1 className="font-tusker mt-5 text-[50px] md:text-[80px] 2xl:text-[100px]">
           <span className="text-yellow">Hello! </span> I'm Shruti
         </h1>
-        <p className="font-sora text-md md:lg:text-2xl">
+        <p className="font-sora text-md md:lg:text-2xl 2xl:text-4xl">
           I use my passion and skills to create digital products and experiences.
           National and international customers rely on me for design,
           implementation, and management of their digital products. As an

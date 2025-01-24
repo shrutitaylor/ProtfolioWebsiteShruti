@@ -2,6 +2,7 @@ import React from "react";
 import moodifyImg from "../assets/images/moodify-website.png";
 import soilImg from "../assets/images/soil-website.png";
 import WorkTicket from "./work-ticket";
+import Ticket from "./ticket";
 
 const Work = () => {
   const projects = [
@@ -22,8 +23,8 @@ const Work = () => {
   ];
   return (
     <div className="min-h-screen py-20 ">
-      <div className="font-tuskerBold text-9xl flex justify-center text-primaryFont m-5">project tickets .</div>
-      <WorkTicket />
+      <div className="font-tuskerBold text-7xl sm:text-9xl flex justify-center text-primaryFont m-5">project tickets .</div>
+      <Ticket />
     </div>
   )
 }

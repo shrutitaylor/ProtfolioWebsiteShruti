@@ -5,6 +5,8 @@ import Home from './pages/home';
 import About from './pages/about';
 import Footer from './pages/footer';
 import Work from './pages/work';
+import Ticket from './pages/ticket';
+import Hobby from './pages/hobbies';
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -58,6 +60,9 @@ function App() {
         </div>
         <div id="work" className="relative">
           <Work />
+        </div>
+        <div id="hobby" className="relative">
+          <Hobby />
         </div>
         <div id="footer" className='relative' ref={footerRef}>
           <Footer  />
