@@ -38,7 +38,7 @@ const Ticket = () => {
       
 
   return (
-    <div className="h-full pb-10 grid grid-cols-1 md:px-5 py-20 justify-center gap-4 bg-transparent text-primaryFont">
+    <div className="h-full overflow-hidden pb-10 grid grid-cols-1 md:px-5 py-20 justify-center gap-4 bg-transparent text-primaryFont">
          
       {/* Big screen */}
       {projects.map((project, index) => (

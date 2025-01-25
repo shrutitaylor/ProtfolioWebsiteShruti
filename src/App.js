@@ -7,6 +7,8 @@ import About from "./pages/about";
 import Footer from "./pages/footer";
 import Work from "./pages/work";
 import Hobby from "./pages/hobbies";
+import TechStack from "./pages/tech-stack";
+import Skills from "./pages/skills";
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -70,9 +72,13 @@ function App() {
         <div id="about" className="relative">
           <About />
         </div>
+        <div id="skills" className="relative">
+          <Skills />
+        </div>
         <div id="work" className="relative">
           <Work />
         </div>
+        
         <div id="hobby" className="relative">
           <Hobby />
         </div>
