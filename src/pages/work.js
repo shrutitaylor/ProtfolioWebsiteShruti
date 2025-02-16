@@ -1,11 +1,19 @@
 import React from "react";
 import moodifyImg from "../assets/images/moodify-website.png";
+import boseImg from "../assets/images/bose.png";
 import soilImg from "../assets/images/soil-website.png";
 import WorkTicket from "./work-ticket";
 import Ticket from "./ticket";
 
 const Work = () => {
   const projects = [
+    {
+      image: boseImg,
+      title: "Headphones Product Page",
+      description: "UI/UX Design, Development",
+      techStack: ["React", "GSAP", "Javascript"],
+      link: "https://shrutitaylor.github.io/earphones-v1/",
+    },
     {
       image: soilImg,
       title: "SOIL - Grocery Website",

@@ -74,6 +74,7 @@ function App() {
         </div>
         <div id="skills" className="relative">
           <Skills />
+          
         </div>
         <div id="work" className="relative">
           <Work />

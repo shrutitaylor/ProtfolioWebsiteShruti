@@ -4,9 +4,20 @@ import soilImg from "../assets/images/soil-website.png";
 import barcodeImg from "../assets/images/barcode.png";
 import migrationImg from "../assets/images/pathfindr-website.png"
 import { motion } from "framer-motion";
+import boseImg from "../assets/images/bose.png";
 
 const Ticket = () => {
     const projects = [
+        {
+            image: boseImg,
+            title: "Headphones Product Page",
+            subtitle: "UI/UX Design, Development",
+            techStack: ["React", "GSAP", "Javascript"],
+            description:
+            "The goal of your project is to create an interactive 3D product showcase for the Bose wireless headphones. As the user scrolls, the camera smoothly transitions between different views",
+         
+            link: "https://shrutitaylor.github.io/earphones-v1/",
+          },
         {
           image: soilImg,
           title: "SOIL - Grocery Website",
